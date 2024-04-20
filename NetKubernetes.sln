@@ -1,25 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.5.002.0
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetKubernetes", "NetKubernetes.csproj", "{86718888-A4E1-4CA1-914F-4CDE2262B3E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetKubernetes", "NetKubernetes.csproj", "{F736735D-41ED-4B78-BA0D-EB9F73AB1CAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{86718888-A4E1-4CA1-914F-4CDE2262B3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{86718888-A4E1-4CA1-914F-4CDE2262B3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{86718888-A4E1-4CA1-914F-4CDE2262B3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{86718888-A4E1-4CA1-914F-4CDE2262B3E7}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4DBD33DA-ACFE-41AB-A5B6-CBC3AE9B45AB}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F736735D-41ED-4B78-BA0D-EB9F73AB1CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F736735D-41ED-4B78-BA0D-EB9F73AB1CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F736735D-41ED-4B78-BA0D-EB9F73AB1CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F736735D-41ED-4B78-BA0D-EB9F73AB1CAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

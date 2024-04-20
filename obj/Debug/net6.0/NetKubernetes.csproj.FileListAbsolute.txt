@@ -69,7 +69,7 @@ D:\Projects\Net7\NetKubernetes\obj\Debug\net6.0\staticwebassets.development.json
 D:\Projects\Net7\NetKubernetes\obj\Debug\net6.0\scopedcss\bundle\NetKubernetes.styles.css
 D:\Projects\Net7\NetKubernetes\obj\Debug\net6.0\NetKubernetes.csproj.CopyComplete
 D:\Projects\Net7\NetKubernetes\obj\Debug\net6.0\NetKubernetes.dll
-D:\Projects\Net7\NetKubernetes\obj\Debug\net6.0\refint\NetKubernetes.dll
 D:\Projects\Net7\NetKubernetes\obj\Debug\net6.0\NetKubernetes.pdb
 D:\Projects\Net7\NetKubernetes\obj\Debug\net6.0\NetKubernetes.genruntimeconfig.cache
 D:\Projects\Net7\NetKubernetes\obj\Debug\net6.0\ref\NetKubernetes.dll
+D:\Projects\Net7\NetKubernetes\bin\Debug\net6.0\ref\NetKubernetes.dll

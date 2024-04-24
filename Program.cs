@@ -18,17 +18,17 @@ using NetKubernetes.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 // Establecer conexion con la base de datos SQL
-// builder.Services.AddDbContext<AppDbContext>(opt => {
-//     opt.LogTo(Console.WriteLine, new [] {DbLoggerCategory.Database.Command.Name}, LogLevel.Information).EnableSensitiveDataLogging();
-//    opt.UseSqlServer(builder.Configuration.GetConnectionString("SQLServerConnection")!);
-// });
+builder.Services.AddDbContext<AppDbContext>(opt => {
+    opt.LogTo(Console.WriteLine, new [] {DbLoggerCategory.Database.Command.Name}, LogLevel.Information).EnableSensitiveDataLogging();
+   opt.UseSqlServer(builder.Configuration.GetConnectionString("SQLServerConnection")!);
+});
 
 // Establecerr conexion a la base de datos MySql
 
-var MySqlConnectionString = builder.Configuration.GetConnectionString("MySqlHeroku");
-builder.Services.AddDbContext<AppDbContext>(options => {
-    options.UseMySql(MySqlConnectionString, ServerVersion.AutoDetect(MySqlConnectionString));
-});
+// var MySqlConnectionString = builder.Configuration.GetConnectionString("MySqlHeroku");
+// builder.Services.AddDbContext<AppDbContext>(options => {
+//     options.UseMySql(MySqlConnectionString, ServerVersion.AutoDetect(MySqlConnectionString));
+// });
 
 // Add services to the container.
 builder.Services.AddScoped<IInmuebleRepository, InmuebleRepository>();

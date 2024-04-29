@@ -3,10 +3,17 @@ kind: Ingress
 metadata:
   name: app-ingress
   namespace: app
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt
 spec:
+  tls:
+  - hosts:
+    - app.rdpena.com
+    - frontend.rdepena.com
+    secretName: testsecret-tls
   ingressClassName: nginx
   rules:
-  - host: app.34.29.73.74.nip.io
+  - host: app.rdepena.com
     http:
       paths:
       - pathType: Prefix
@@ -16,7 +23,7 @@ spec:
             name: app-service
             port: 
               number: 80
-  - host: frontend.app.34.29.73.74.nip.io
+  - host: frontend.rdepena.com
     http:
       paths:
       - pathType: Prefix

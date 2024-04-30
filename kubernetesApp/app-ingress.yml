@@ -32,3 +32,7 @@ spec:
             name: angular-inmueble-service
             port: 
               number: 80            
+tls: 
+  - hosts:
+    - rdpena.com
+    secretName: testsecret-tls

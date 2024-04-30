@@ -4,11 +4,12 @@ metadata:
   name: letsencrypt
 spec:
   acme: 
-    server: https://acme-02.api.letsencrypt.org/directory
+    # server: https://acme-02.api.letsencrypt.org/directory
     email: rodoldo.depena@gmail.com
+    server: https://acme-staging-v02.api.letsencrypt.org/directory
     privateKeySecretRef:
-      name: letsencrypt
+      name: letsencrypt_key
     solvers:
-    - http01:
+    - dns01:
         ingress:
           class: nginx  

@@ -16,5 +16,6 @@ spec:
       containers:
       - name: angular-inmueble-app
         image: rodolight/angular-kubernetes-rodol:v2.0
+        imagePullPolicy: Always
         ports:
         - containerPort: 80

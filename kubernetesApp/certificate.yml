@@ -11,3 +11,4 @@ spec:
   commonName: 'rdpena.com'
   dnsNames:
   - "rdpena.com"
+  - "frontend.rdpena.com"

@@ -4,11 +4,10 @@ metadata:
   name: rdpena.com
   namespace: cert-manager
 spec:
-  secretName: rdpena.com
+  secretName: testsecret-tls
   issuerRef:
     name: letsencrypt
     kind: ClusterIssuer
-  commonName: 'rdpena.com'
   dnsNames:
   - "rdpena.com"
   - "frontend.rdpena.com"

@@ -5,14 +5,14 @@ metadata:
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt
 spec:
-  tls:
+  tls: 
   - hosts:
     - app.rdpena.com
-    - frontend.rdepena.com
+    - frontend.rdpena.com
     secretName: testsecret-tls
   ingressClassName: nginx
   rules:
-  - host: app.rdepena.com
+  - host: app.rdpena.com
     http:
       paths:
       - pathType: Prefix
@@ -20,9 +20,9 @@ spec:
         backend:
           service:
             name: app-service
-            port: 
+            port:
               number: 80
-  - host: frontend.rdepena.com
+  - host: frontend.rdpena.com
     http:
       paths:
       - pathType: Prefix
@@ -30,5 +30,5 @@ spec:
         backend:
           service:
             name: angular-inmueble-service
-            port: 
-              number: 80            
+            port:
+              number: 80
